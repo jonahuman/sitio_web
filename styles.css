@@ -1,0 +1,97 @@
+body {
+    font-family: "Poppins";
+    margin: 0;
+    padding: 0;
+}
+
+
+p {
+    font-size: 25px;
+}
+
+li{
+    list-style: none;
+    margin-right: 20px;
+}
+
+#primero {
+    font-size: 30px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista {
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+.titular{
+    text-align: center;
+    margin-top: 200px;
+}
+
+h1{
+    font-size: 60px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+a {
+    font-size: 14px;
+    background: #5cb8ff;
+    padding: 20px 30px 20px 30px;
+
+}
+
+header {
+    background: url(parallax-diseño-web-personalizadp.jpg);
+    height: 100vh;
+}
+
+.contenedor {
+    max-width: 1920px;
+    width: 90%;
+    margin: auto;
+}
+
+/* ARRANCA SECCIÓN SOBRE MI: */
+
+h3 {
+    text-align: center;
+    font-size: 55px;
+    font-weight: normal;
+}
+
+p {
+    font-weight: bold;
+}
+
+.contenedor-sobremi {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedor-parrafo-y-boton {
+    width: 52%;
+}
+
+.contenedor-parrafo-y-boton p {
+    font-size: 18px;
+}
+
+.contenedor-parrafo-y-boton a {
+    margin-top: 20px;
+}
